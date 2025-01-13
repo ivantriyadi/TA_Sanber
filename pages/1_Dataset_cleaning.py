@@ -8,10 +8,11 @@ st.write('Raw tweet dalam dataset pandas')
 data=pd.read_csv('assets/Raw_tweet.csv')
 st.dataframe(data)
 
-proses_names = ['Memasukkan Library','Data Understanding','Text Preprocessing','Tokenization']
+proses_names = ['Persiapkan Library','Data Understanding','Text Preprocessing','Tokenization']
 proses = st.radio('Pilih Proses', proses_names)
+st.write('-----------------------------------------------------------------------------------------------------'
 
-if proses == 'Memasukkan Library':
+if proses == 'Persiapkan Library':
     st.write('Proses mempersiapkan library')
     st.image("assets/1-library.jpg")
 
