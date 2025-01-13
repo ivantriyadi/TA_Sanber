@@ -7,10 +7,11 @@ st.write('Clean tweet dalam dataset pandas')
 data=pd.read_csv('assets/Clean_tweet.csv')
 st.dataframe(data)
 
-proses_names = ['Persiapkan Library','Penerjemahan','Analisis Sentimen NLTK','Data Visualisasi']
+proses_names = ['Persiapkan Library','Penerjemahan','Analisis Sentimen NLTK','Visualisasi Data']
 proses = st.radio('Pilih Proses', proses_names)
 
 if proses == 'Persiapkan Library':
+    st.subheader('Proses mempersiapkan library')
     st.markdown(
         """
         Pada proses ini, dilakukan instalasi library yang dibutuhkan, diantaranya Pandas untuk memproses dataset
@@ -21,6 +22,7 @@ if proses == 'Persiapkan Library':
     st.image("assets/2-library.jpg")
     
 elif proses == 'Penerjemahan':
+    st.subheader('Proses penerjemahan kata')
     st.markdown(
         """
         Pada proses ini, dilakukan penerjemahan setiap kata dari bahasa Indonesia ke bahasa Inggris disebabkan NLTK
@@ -29,6 +31,7 @@ elif proses == 'Penerjemahan':
     st.image("assets/2-translating.jpg")
     
 elif proses == 'Analisis Sentimen NLTK':
+    st.subheader('Proses analisis sentimen')
     st.markdown(
         """
         Pada proses ini, dilakukan sentimen analisis menggunakan modul pada library NLTK yang menghasilkan Polarity Score
@@ -37,7 +40,8 @@ elif proses == 'Analisis Sentimen NLTK':
         """)
     st.image("assets/2-analysis.jpg")
     
-elif proses == 'Data Visualisasi':
+elif proses == 'Visualisasi Data':
+    st.subheader('Proses visualisasi data')
     st.markdown(
         """
         Pada proses ini, dilakukan visualisasi data dalam bentuk pie chart dan wordcloud untuk mempermudah pengambilan
