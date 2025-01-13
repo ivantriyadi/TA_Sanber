@@ -41,7 +41,7 @@ with open('Raw_tweet.csv') as f:
     st.download_button(
         label="Download Raw Tweet",
         data=f,
-        file_name="Raw_tweet.csv",
+        file_name="assets/Raw_tweet.csv",
         mime="text/csv",
         icon=":material/download_for_offline:"
     )
