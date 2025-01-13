@@ -13,7 +13,7 @@ proses = st.radio('Pilih Proses', proses_names)
 st.write('-----------------------------------------------------------------------------------------------------')
 
 if proses == 'Persiapkan Library':
-    st.write('Proses mempersiapkan library')
+    st.subheader('Proses mempersiapkan library')
     st.image("assets/1-library.jpg")
 
 elif proses == 'Data Understanding':
