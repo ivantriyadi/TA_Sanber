@@ -37,9 +37,9 @@ Regex untuk proses pembersihan string dari hyperlink, angka, tanda baca dan lain
 Pandas untuk pengolahan dataset.
 Matplotly untuk menampilkan visualisasi data dalam grafik.
 
-Dibuat oleh: Ivan Triyadi
-Tugas Akhir Data Science Sanbercampus
-Trainer: Thio Perdana
+Dibuat oleh: Ivan Triyadi\n
+Tugas Akhir Data Science Sanbercampus\n
+Trainer: Thio Perdana\n
     """
 )
 
