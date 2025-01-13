@@ -5,6 +5,9 @@ st.subheader("Proses pembersihan dataset")
 
 #st.image("assets/gambarnya.jpg")
 
+data=pd.read_csv('assets/Raw_tweet.csv)
+st.dataframe(data)
+
 st.markdown(
     """
 Tulis di sini
@@ -17,10 +20,13 @@ proses = st.radio('Pilih Proses', proses_names)
 if proses == 'Memasukkan Library':
     st.write('proses library')
     st.image("assets/Tahun_baru.jpg")
+
 elif proses == 'Data Understanding':
     st.write('proses data understanding')
+    
 elif proses == 'Text Preprocessing':
     st.write('proses test preprocessing')
+    
 elif proses == 'Tokenization':
     st.write('proses tokenization')
     with open('assets/Clean_tweet.csv') as f:
