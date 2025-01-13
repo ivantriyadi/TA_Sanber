@@ -17,7 +17,7 @@ if proses == 'Persiapkan Library':
     st.image("assets/1-library.jpg")
 
 elif proses == 'Data Understanding':
-    st.write('Proses data understanding')
+    st.subheader('Proses data understanding')
     st.markdown(
         """
     Pada proses ini, tweets yang sudah dimasukkan ke dalam dataset pandas diolah menggunakan proses yaitu pengambilan fitur penting,
@@ -27,11 +27,11 @@ elif proses == 'Data Understanding':
     st.image("assets/1-understanding.jpg")
 
 elif proses == 'Text Preprocessing':
-    st.write('Proses test preprocessing')
+    st.subheader('Proses test preprocessing')
     st.image("assets/1-preprocessing.jpg")
 
 elif proses == 'Tokenization':
-    st.write('Proses tokenization')
+    st.subheader('Proses tokenization')
     st.image("assets/1-tokenization.jpg")
     with open('assets/Clean_tweet.csv') as f:
         st.download_button(
