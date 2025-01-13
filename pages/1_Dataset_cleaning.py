@@ -10,7 +10,7 @@ st.dataframe(data)
 
 proses_names = ['Persiapkan Library','Data Understanding','Text Preprocessing','Tokenization']
 proses = st.radio('Pilih Proses', proses_names)
-st.write('-----------------------------------------------------------------------------------------------------')
+#st.write('-----------------------------------------------------------------------------------------------------')
 
 if proses == 'Persiapkan Library':
     st.subheader('Proses mempersiapkan library')
