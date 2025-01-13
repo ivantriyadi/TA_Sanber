@@ -28,3 +28,5 @@ Sastrawi untuk tahap pembersihan kata sampai stemming
 NLTK untuk menghasilkan output sentimen analysis dengan akurasi tinggi.
 Google translate untuk menterjemahkan kata
 Regex untuk proses pembersihan string dari hyperlink, angka, tanda baca dan lainnya.
+Pandas untuk pengolahan dataset
+Matplotly untuk menampilkan visualisasi data dalam grafik
