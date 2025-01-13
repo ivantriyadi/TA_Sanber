@@ -16,7 +16,9 @@ if proses == 'Persiapkan Library':
     st.subheader('Proses mempersiapkan library')
     st.markdown(
         """
-    Pada proses ini, dilakukan instalasi library yang dibutuhkan, diantaranya Pandas untuk memproses dataset,
+    Pada proses ini, dilakukan instalasi library yang dibutuhkan, diantaranya Pandas untuk memproses dataset, regex untuk
+    mengeksekusi syntax regular expression, dan Sastrawi untuk menghilangkan stopwords dan melakukan stemming dalam bahasa
+    Indonesia.
         """
     )
     st.image("assets/1-library.jpg")
