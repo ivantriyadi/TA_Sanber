@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-st. write("hello world")
 st.markdown(
     """
     Judul:
@@ -41,6 +40,5 @@ Matplotly untuk menampilkan visualisasi data dalam grafik
 
 st.download_button(
     label="Download Raw_tweet.csv",
-    data=csv,
     file_name='assets/Raw_tweet.csv',
 )
