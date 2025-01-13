@@ -1,16 +1,12 @@
 import streamlit as st
 import pandas as pd
 
-st.title("HOBBY DAN INTEREST")
+st.subheader("Kesimpulan")
 
-st.header("Badminton")
-st.image("assets/badminton.jpg")
+#st.image("assets/gambarnya.jpg")
 
-st.header("Programming")
-st.image("assets/sanber.jpg")
-
-st.header("Trail running")
-st.image("assets/trail.jpg")
-
-st.header("Traveling")
-st.image("assets/traveling.jpg")
+st.markdown(
+    """
+Tulis di sini
+    """
+)
