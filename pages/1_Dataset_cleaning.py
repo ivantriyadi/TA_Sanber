@@ -5,7 +5,7 @@ st.subheader("Proses pembersihan dataset")
 
 #st.image("assets/gambarnya.jpg")
 
-data=pd.read_csv('assets/Raw_tweet.csv)
+data=pd.read_csv('assets/Raw_tweet.csv')
 st.dataframe(data)
 
 st.markdown(
