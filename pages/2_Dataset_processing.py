@@ -7,10 +7,10 @@ st.write('Clean tweet dalam dataset pandas')
 data=pd.read_csv('assets/Clean_tweet.csv')
 st.dataframe(data)
 
-proses_names = ['Memasukkan Library','Penerjemahan','Analisis Sentimen NLTK','Data Visualisasi']
+proses_names = ['Persiapkan Library','Penerjemahan','Analisis Sentimen NLTK','Data Visualisasi']
 proses = st.radio('Pilih Proses', proses_names)
 
-if proses == 'Memasukkan Library':
+if proses == 'Persiapkan Library':
     st.markdown(
         """
         Pada proses ini, dilakukan instalasi library yang dibutuhkan, diantaranya Pandas untuk memproses dataset
