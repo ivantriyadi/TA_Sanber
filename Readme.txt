@@ -3,7 +3,7 @@ Sentiment analysis optimisme terhadap Tahun Baru 2025
 
 Ringkasan:
 Saya akan membuat interface streamlit yang dapat menampilkan hasil sentiment analysis terhadap bagaimana kecenderungn optimisme netizen twitter menghadapi tahun 2025.
-Data diambil menggunakan metode scraping manual dari web X, untuk menghindari penggunaan API yang berbayar.
+Data diambil berupa tweet bertagar #tahunbaru2025 menggunakan metode scraping manual dari web X, untuk menghindari penggunaan API yang berbayar.
 
 Latar Belakang:
 Tahun 2024 dengan segala pencapaian dan kegagalannya telah berlalu dan membuka lembaran baru 2025. Kondisi sosial politik di akhir tahun 2024 pun tampak naik turun.
