@@ -16,11 +16,11 @@ proses = st.radio('Pilih Proses', proses_names)
 
 if proses == 'Memasukkan Library':
     st.write('proses library')
-if proses == 'Data Understanding':
+elif proses == 'Data Understanding':
     st.write('proses data understanding')
-if proses == 'Text Preprocessing':
+elif proses == 'Text Preprocessing':
     st.write('proses test preprocessing')
-if proses == 'Tokenization':
+elif proses == 'Tokenization':
     st.write('proses tokenization')
 else:
     st.write('proses lain')
