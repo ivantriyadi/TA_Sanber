@@ -31,7 +31,7 @@ elif proses == 'Penerjemahan':
 elif proses == 'Analisis Sentimen NLTK':
     st.markdown(
         """
-        Pada proses ini, dilakukan sentimen analisis menggunakan modul pada library NLTK yang menghasilkan skor
+        Pada proses ini, dilakukan sentimen analisis menggunakan modul pada library NLTK yang menghasilkan Polarity Score
         negatif, netral, positif dan compound. Skor compound digunakan untuk menentukan klasifikasi sentimen apakah positif,
         netral, atau negatif.
         """)
@@ -43,9 +43,8 @@ elif proses == 'Data Visualisasi':
         Pada proses ini, dilakukan visualisasi data dalam bentuk pie chart dan wordcloud untuk mempermudah pengambilan
         kesimpulan.
         """)
-    st.image("assets/2-pie.jpg")
-    st.image("assets/2-negatif.jpg")
-    st.image("assets/2-positif.jpg")
+    st.image("assets/2-visualization.jpg")
+    st.image("assets/2-wordcloud.jpg")
     
 else:
     st.write('proses lain')
