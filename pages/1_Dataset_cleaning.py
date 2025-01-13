@@ -16,6 +16,7 @@ proses = st.radio('Pilih Proses', proses_names)
 
 if proses == 'Memasukkan Library':
     st.write('proses library')
+    st.image("assets/Tahun_baru.jpg")
 elif proses == 'Data Understanding':
     st.write('proses data understanding')
 elif proses == 'Text Preprocessing':
