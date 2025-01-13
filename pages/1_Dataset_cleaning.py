@@ -20,14 +20,21 @@ elif proses == 'Data Understanding':
     st.subheader('Proses data understanding')
     st.markdown(
         """
-    Pada proses ini, tweets yang sudah dimasukkan ke dalam dataset pandas diolah menggunakan proses yaitu pengambilan fitur penting,
-    normaliasi kata non-formal, penghilangan stopwords (angka, tanda baca, hyperlink, dan emoticon).
+    Pada proses ini, tweets yang sudah dimasukkan ke dalam dataset pandas diperiksa tipe dan jumlah datanya, periksa apakah
+    ada baris kosong dan duplikat. Untuk isi tweet yang sama, saya tidak anggap sebagai duplikat karena bisa jadi merupakan
+    retweet atau post dari berbeda akun. Dik
         """
     )
     st.image("assets/1-understanding.jpg")
 
 elif proses == 'Text Preprocessing':
-    st.subheader('Proses test preprocessing')
+    st.subheader('Proses text preprocessing')
+    st.markdown(
+        """
+    Pada proses ini, tweets yang sudah dimasukkan ke dalam dataset pandas diolah menggunakan proses yaitu pengambilan fitur penting,
+    normaliasi kata non-formal, penghilangan stopwords (angka, tanda baca, hyperlink, dan emoticon).
+        """
+    )
     st.image("assets/1-preprocessing.jpg")
 
 elif proses == 'Tokenization':
