@@ -14,7 +14,7 @@ Tulis di sini
 proses_names = ['Memasukkan Library','Data Understanding','Text Preprocessing','Tokenization']
 proses = st.radio('Pilih Proses', proses_names)
 
-if proses = 'Memasukkan Library':
+if proses == 'Memasukkan Library':
     st.write('proses library')
 else:
     st.write('proses lain')
