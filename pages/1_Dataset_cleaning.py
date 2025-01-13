@@ -13,7 +13,7 @@ Tulis di sini
 
 with open('assets/Clean_tweet.csv') as f:
     st.download_button(
-        label="Download Raw Tweet",
+        label="Download Clean Tweet",
         data=f,
         file_name="Clean_tweet.csv",
         mime="text/csv",
