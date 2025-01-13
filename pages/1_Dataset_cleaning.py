@@ -17,16 +17,19 @@ proses = st.radio('Pilih Proses', proses_names)
 
 if proses == 'Memasukkan Library':
     st.write('proses library')
-    st.image("assets/Tahun_baru.jpg")
+    st.image("assets/1-library.jpg")
 
 elif proses == 'Data Understanding':
     st.write('proses data understanding')
-    
+    st.image("assets/1-understanding.jpg")
+
 elif proses == 'Text Preprocessing':
     st.write('proses test preprocessing')
-    
+    st.image("assets/1-preprocessing.jpg")
+
 elif proses == 'Tokenization':
     st.write('proses tokenization')
+    st.image("assets/1-tokenization.jpg")
     with open('assets/Clean_tweet.csv') as f:
         st.download_button(
             label="Download Clean Tweet",
