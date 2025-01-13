@@ -22,14 +22,14 @@ elif proses == 'Text Preprocessing':
     st.write('proses test preprocessing')
 elif proses == 'Tokenization':
     st.write('proses tokenization')
-    with open('assets/Clean_tweet.csv') as f:
-    st.download_button(
-        label="Download Clean Tweet",
-        data=f,
-        file_name="Clean_tweet.csv",
-        mime="text/csv",
-        icon=":material/download_for_offline:"
-    )
+        with open('assets/Clean_tweet.csv') as f:
+        st.download_button(
+            label="Download Clean Tweet",
+            data=f,
+            file_name="Clean_tweet.csv",
+            mime="text/csv",
+            icon=":material/download_for_offline:"
+        )
 else:
     st.write('proses lain')
 
