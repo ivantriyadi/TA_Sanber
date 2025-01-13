@@ -11,12 +11,28 @@ proses_names = ['Memasukkan Library','Penerjemahan','Sentiment Analysis NLTK','D
 proses = st.radio('Pilih Proses', proses_names)
 
 if proses == 'Memasukkan Library':
-    st.write('proses library')
+    st.markdown(
+        """
+        proses library
+        """)
+    
 elif proses == 'Penerjemahan':
-    st.write('proses Penerjemahan')
+    st.markdown(
+        """
+        proses penerjemahan
+        """)
+    
 elif proses == 'Sentiment Analysis NLTK':
-    st.write('proses Sentiment Analysis NLTK')
+    st.markdown(
+        """
+        proses analysis
+        """)
+    
 elif proses == 'Data Visualisasi':
-    st.write('proses Data Visualisasi')
+    st.markdown(
+        """
+        proses visualisasi data
+        """)
+    
 else:
     st.write('proses lain')
