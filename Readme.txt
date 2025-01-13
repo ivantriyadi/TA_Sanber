@@ -17,7 +17,7 @@ Metodologi:
 1.	Pengambilan dataset dilakukan manual melalui chrome.
 2.	Melakukan pembersihan dataset menggunakan library Sastrawi, agar stemming lebih akurat -> pada file Dataset_cleaning.ipynb
 3.	Melakukan terjemahan bahasa Indonesia ke Inggris dalam pengolahan sentimen analysis menggunakan library NLTK -> pada file Dataset_processing.ipynb
-4.	Visualisasi presentase sentimen keberpihakan (positif, negative dan netral), akurasi model, dan cloud of words.
+4.	Visualisasi presentase sentimen perasaan (positif, negative dan netral), akurasi model, dan cloud of words.
 5.	Data, pengolahan dan visualisasi ditampilkan melalui interface Streamlit
 
 Algoritma dan Model:
