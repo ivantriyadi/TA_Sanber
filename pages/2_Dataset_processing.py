@@ -18,7 +18,7 @@ if proses == 'Memasukkan Library':
         memvisualisasikan data dalam bentuk diagram dan grafik, serta Wordcloud untuk memvisualisasikan kata yang
         sering muncul pada suatu sentimen. 
         """)
-    st.image("2-library.jpg")
+    st.image("assets/2-library.jpg")
     
 elif proses == 'Penerjemahan':
     st.markdown(
@@ -26,7 +26,7 @@ elif proses == 'Penerjemahan':
         Pada proses ini, dilakukan penerjemahan setiap kata dari bahasa Indonesia ke bahasa Inggris disebabkan NLTK
         belum mempunyai model analisis sentimen untuk bahasa Indonesia.
         """)
-    st.image("2-translating.jpg")
+    st.image("assets/2-translating.jpg")
     
 elif proses == 'Analisis Sentimen NLTK':
     st.markdown(
@@ -35,7 +35,7 @@ elif proses == 'Analisis Sentimen NLTK':
         negatif, netral, positif dan compound. Skor compound digunakan untuk menentukan klasifikasi sentimen apakah positif,
         netral, atau negatif.
         """)
-    st.image("2-analysis.jpg")
+    st.image("assets/2-analysis.jpg")
     
 elif proses == 'Data Visualisasi':
     st.markdown(
@@ -43,9 +43,9 @@ elif proses == 'Data Visualisasi':
         Pada proses ini, dilakukan visualisasi data dalam bentuk pie chart dan wordcloud untuk mempermudah pengambilan
         kesimpulan.
         """)
-    st.image("2-pie.jpg")
-    st.image("2-negatif.jpg")
-    st.image("2-positif.jpg")
+    st.image("assets/2-pie.jpg")
+    st.image("assets/2-negatif.jpg")
+    st.image("assets/2-positif.jpg")
     
 else:
     st.write('proses lain')
