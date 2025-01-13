@@ -38,7 +38,7 @@ Matplotly untuk menampilkan visualisasi data dalam grafik
     """
 )
 
-st.download_button(
-    label="Download Raw_tweet.csv",
-    file_name='Raw_tweet.csv',
-)
+st.download_button('Download CSV', text_contents, 'text/csv')
+
+with open('Raw_tweet.csv') as f:
+   st.download_button('Download CSV', f)
