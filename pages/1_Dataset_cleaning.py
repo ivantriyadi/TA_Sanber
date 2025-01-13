@@ -2,11 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.subheader("Proses pembersihan dataset")
-st.markdown(
-    """
-Raw tweet dalam dataset pandas
-    """
-)
+st.write('Raw tweet dalam dataset pandas')
 #st.image("assets/gambarnya.jpg")
 
 data=pd.read_csv('assets/Raw_tweet.csv')
@@ -16,19 +12,25 @@ proses_names = ['Memasukkan Library','Data Understanding','Text Preprocessing','
 proses = st.radio('Pilih Proses', proses_names)
 
 if proses == 'Memasukkan Library':
-    st.write('proses library')
+    st.write('Proses mempersiapkan library')
     st.image("assets/1-library.jpg")
 
 elif proses == 'Data Understanding':
-    st.write('proses data understanding')
+    st.write('Proses data understanding')
+    st.markdown(
+        """
+    Pada proses ini, tweets yang sudah dimasukkan ke dalam dataset pandas diolah menggunakan proses yaitu pengambilan fitur penting,
+    normaliasi kata non-formal, penghilangan stopwords (angka, tanda baca, hyperlink, dan emoticon).
+        """
+    )
     st.image("assets/1-understanding.jpg")
 
 elif proses == 'Text Preprocessing':
-    st.write('proses test preprocessing')
+    st.write('Proses test preprocessing')
     st.image("assets/1-preprocessing.jpg")
 
 elif proses == 'Tokenization':
-    st.write('proses tokenization')
+    st.write('Proses tokenization')
     st.image("assets/1-tokenization.jpg")
     with open('assets/Clean_tweet.csv') as f:
         st.download_button(
