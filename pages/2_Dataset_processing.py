@@ -2,14 +2,14 @@ import streamlit as st
 import pandas as pd
 
 st.subheader("Proses Sentiment Analysis Dataset")
-
 #st.image("assets/gambarnya.jpg")
 
-st.markdown(
-    """
-Tulis di sini
-    """
-)
+st.subheader("Proses pembersihan dataset")
+st.write('Clean tweet dalam dataset pandas')
+#st.image("assets/gambarnya.jpg")
+
+data=pd.read_csv('assets/Clean_tweet.csv')
+st.dataframe(data)
 
 proses_names = ['Memasukkan Library','Penerjemahan','Sentiment Analysis NLTK','Data Visualisasi']
 proses = st.radio('Pilih Proses', proses_names)
