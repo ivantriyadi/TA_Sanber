@@ -30,12 +30,12 @@ Algoritma dan Model:
 Bahasa: Python 3.13.1
 
 Library :
-Sastrawi untuk tahap pembersihan kata sampai stemming
+Sastrawi untuk tahap pembersihan kata sampai stemming.
 NLTK untuk menghasilkan output sentimen analysis dengan akurasi tinggi.
-Google translate untuk menterjemahkan kata
+Google translate untuk menterjemahkan kata.
 Regex untuk proses pembersihan string dari hyperlink, angka, tanda baca dan lainnya.
-Pandas untuk pengolahan dataset
-Matplotly untuk menampilkan visualisasi data dalam grafik
+Pandas untuk pengolahan dataset.
+Matplotly untuk menampilkan visualisasi data dalam grafik.
     """
 )
 
