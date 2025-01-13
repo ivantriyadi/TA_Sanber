@@ -14,6 +14,11 @@ st.write('----------------------------------------------------------------------
 
 if proses == 'Persiapkan Library':
     st.subheader('Proses mempersiapkan library')
+    st.markdown(
+        """
+    Pada proses ini, dilakukan instalasi library yang dibutuhkan, diantaranya Pandas untuk memproses dataset,
+        """
+    )
     st.image("assets/1-library.jpg")
 
 elif proses == 'Data Understanding':
