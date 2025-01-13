@@ -43,4 +43,5 @@ with open('Raw_tweet.csv') as f:
         data=f,
         file_name="Raw_tweet.csv",
         mime="text/csv",
+        icon=":material/download_for_offline:"
     )
