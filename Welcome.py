@@ -36,6 +36,10 @@ Google translate untuk menterjemahkan kata.
 Regex untuk proses pembersihan string dari hyperlink, angka, tanda baca dan lainnya.
 Pandas untuk pengolahan dataset.
 Matplotly untuk menampilkan visualisasi data dalam grafik.
+
+Dibuat oleh: Ivan Triyadi
+Tugas Akhir Data Science Sanbercampus
+Trainer: Thio Perdana
     """
 )
 
