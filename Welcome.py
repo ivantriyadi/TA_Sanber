@@ -1,11 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+st.subheader("Sentiment analysis optimisme terhadap Tahun Baru 2025")
+
 st.markdown(
     """
-    Judul:
-Sentiment analysis optimisme terhadap Tahun Baru 2025
-
 Ringkasan:
 Saya akan membuat interface streamlit yang dapat menampilkan hasil sentiment analysis terhadap bagaimana kecenderungn optimisme netizen twitter menghadapi tahun 2025.
 Data diambil berupa tweet bertagar #tahunbaru2025 menggunakan metode scraping manual dari web X, untuk menghindari penggunaan API yang berbayar.
@@ -39,7 +38,6 @@ Matplotly untuk menampilkan visualisasi data dalam grafik
 )
 
 with open('Raw_tweet.csv') as f:
-   #st.download_button('Download CSV', f, file_name='Raw_tweet.csv')
     st.download_button(
         label="Download Raw Tweet",
         data=f,
