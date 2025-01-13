@@ -3,6 +3,8 @@ import pandas as pd
 
 st.subheader("Sentiment analysis optimisme terhadap Tahun Baru 2025")
 
+st.image("assets/tahun_baru.jpg")
+
 st.markdown(
     """
 Ringkasan:
